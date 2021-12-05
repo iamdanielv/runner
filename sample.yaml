@@ -1,0 +1,27 @@
+name: "Sample Runner"
+description: "Will run a few sample commands"
+commands:
+  - 
+    name: "list files"
+    # type can be: shell, containerManagement, fileManagement
+    type: shell
+    # cmd is an array that starts with a 'verb' followed by optional arguments
+    cmd: ["ls", "-hal"]
+#  - 
+#    name: "Docker ps"
+#    # type can be: shell, containerManagement, fileManagement
+#    type: containerManagement
+#    # cmd is an array that starts with a 'verb' followed by optional arguments
+#    cmd: ["ps"]
+#  - 
+#    name: "Docker image ls"
+#    # type can be: shell, containerManagement, fileManagement
+#    type: containerManagement
+#    # cmd is an array that starts with a 'verb' followed by optional arguments
+#    cmd: ["image", "ls"]
+#  - 
+#    name: "Docker pull"
+#    # type can be: shell, containerManagement, fileManagement
+#    type: containerManagement
+#    # cmd is an array that starts with a 'verb' followed by optional arguments
+#    cmd: ["pull", "nginx:alpine"]
